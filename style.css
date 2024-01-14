@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  background-color: #dddbdb;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+.container {
+  padding-bottom: 20px;
+}
+.titleBall {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: #514141;
+}
+.imgball {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  top: 10px;
+}
+.paragraph_question {
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+.imghole {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  top: 5px;
+}
+.balltextAnswer {
+  width: 130px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 95px;
+  z-index: 5;
+  font-size: 10px;
+}
+.imgone {
+  max-width: 240px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.imgtwo {
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  top: 28px;
+}
+
+.borderInput {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 10px 7px 10px 1px rgba(0, 0, 0, 0.3),
+    -5px 0 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 8.5px;
+  font-weight: 100;
+}
+
+.input {
+  outline: none;
+  max-width: 150px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #ce4708;
+  overflow: visible;
+  border-bottom: 3px solid #be4107;
+  border-top: 1px solid #be4107;
+  border-right: 1px solid #be4107;
+  border-left: 1px solid #be4107;
+  transition: all 0.2s;
+  font-size: 11px;
+}
+
+.btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn button {
+  font-weight: 100;
+  color: white;
+  width: 136.4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #ce4708;
+  border-radius: 4px;
+  overflow: visible;
+  border-bottom: 3px solid #be4107;
+  border-top: 1px solid #be4107;
+  border-right: 1px solid #be4107;
+  border-left: 1px solid #be4107;
+  transition: all 0.2s;
+  font-size: 9px;
+}
+
+.btn button:hover {
+  background: #c62905;
+  border-bottom: 3px solid #9e2004;
+  outline: none;
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 400px) {
+  .titleBall {
+    font-size: 17px;
+  }
+
+  .imgtwo {
+    width: 100%;
+  }
+
+  .btn {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  #button:hover {
+    transform: scale(1.1);
+    transition: 0, 3s;
+  }
+
+  .balltextAnswer {
+    width: 80%;
+    font-size: 5px;
+    position: absolute;
+    top: 55px;
+  }
+
+  .imgball {
+    max-width: 150px;
+  }
+
+  .paragraph_question {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 183px) {
+  .titleBall {
+    font-size: 10px;
+  }
+  .balltextAnswer {
+    font-size: 10px;
+  }
+  .imgtwo {
+    position: relative;
+    top: 27px;
+  }
+  .balltextAnswer {
+    width: 80%;
+    font-size: 4px;
+    position: absolute;
+
+  }
+
+  .btn button {
+    font-size: 7px;
+    font-weight: 100;
+  }
+
+  ::-webkit-input-placeholder{
+    font-size: 7px;
+    font-weight: 100;
+  }
+  .btn input {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 105px) {
+  .imgtwo {
+    position: relative;
+    top: 15px;
+  }
+
+    ::-webkit-input-placeholder{
+    font-size: 5px;
+    font-weight: 100;
+  }
+
+    .btn button {
+    font-size: 5px;
+    font-weight: 100;
+  }
+.paragraph_question{
+  font-size: 6px;
+}
+
+.balltextAnswer{
+  position: absolute;
+  top: 30px;
+  font-size: 4.5px;
+}
+}
